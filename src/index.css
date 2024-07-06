@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Margarine&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+  color: #fff;
+  background-color: #111;
+}
+
+html.
+body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.section1{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+nav .logo{
+  font-size: 40px;
+  font-weight: 800;
+}
+
+nav .menu{
+  display: flex;
+  gap: 40px;
+}
+
+.center{
+  /* margin-top: 20px; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+}
+
+.center-part1{
+  width: 40%;
+  height: 100vh;
+  padding: 60px;
+  /* background-color: red; */
+}
+
+.center-part2{
+  width: 55%;
+  height: 100vh;
+  /* background-color: yellow; */
+}
+
+.center-part1 h1{
+  font-family: "Margarine", sans-serif;
+  font-size: 40px;
+  width: fit;
+  padding: 10px;
+  /* font-style: italic; */
+}
+
+.center-part1 p{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
+.center-part1 button{
+  margin-top: 120px;
+  margin-left: 5px;
+  color: black;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+}
+
+.center-part2 .image1{
+  position: absolute;
+  top: 100px;
+  right: 70px;
+  background: url("https://www.talentcards.com/blog/wp-content/uploads/people_development.jpg");
+  background-size: cover;
+  width: 300px;
+  border: 0.5px solid grey;
+  height: 200px;
+}
+.center-part2 .image2{
+  position: absolute;
+  top: 250px;
+  right: 400px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7hG42hB0YeW0MC2-kCNYmR3JhRuThRkhJjwrfk6piMt4JEn9By4C0GJ0DFiYyQ5x0g5E&usqp=CAU");
+  background-size: cover;
+  width: 350px;
+  border: 0.5px solid grey;
+  height: 350px;
+}
+.center-part2 .image3{
+  position: absolute;
+  top: 400px;
+  right: 70px;
+  background: url("https://www.aptaracorp.com/wp-content/uploads/2023/03/thumbnail_Blog_1_1064-x-729_1_300dpi.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  width: 250px;
+  border: 0.5px solid grey;
+  height: 300px;
+}
